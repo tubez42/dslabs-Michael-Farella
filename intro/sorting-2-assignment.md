@@ -162,7 +162,7 @@ function containsX(string) {
 # (a) What is this function’s time complexity regarding Big O Notation?
 # (b) Then, modify the code to improve the algorithm’s efficiency for best- and average-case scenarios.
 
-(a) This algorithm scans through the argued string and changes a boolena value if it finds a value of X within it. It's complexity is linear to the length of the string (N). Therefore it has O(N) time complexity.
+(a) This algorithm scans through the argued string and changes a boolean value if it finds a value of X within it. It's complexity is linear to the length of the string (N). Therefore it has O(N) time complexity.
 (b) Once they  X value is found the code still continues through the string. If an X were to exist at index zero the code would still take N steps to complete. If we gave the code the ability to exit after the X was found, our time complexity would be reduced to from N to, the index of the X J, to O(N - J).
 ```
 function containsX(string) {
